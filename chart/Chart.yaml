@@ -1,0 +1,11 @@
+apiVersion: v1
+appVersion: "latest"
+description: DashMachine is another web application bookmark dashboard, with fun features.
+icon: https://git.wolf-house.net/ross/DashMachine/raw/branch/master/dashmachine/static/images/logo/logo.png
+name: dashmachine
+version: 0.1.0
+sources:
+  - https://git.wolf-house.net/ross/DashMachine
+maintainers:
+  - name: Ryan Holt
+    email: ryan@ryanholt.net
