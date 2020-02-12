@@ -43,14 +43,14 @@ spec:
             - name: http
               containerPort: 5000
               protocol: TCP
-          livenessProbe:
-            httpGet:
-              path: /notifications
-              port: http
-          readinessProbe:
-            httpGet:
-              path: /notifications
-              port: http
+          # livenessProbe:
+          #   httpGet:
+          #     path: /notifications
+          #     port: http
+          # readinessProbe:
+          #   httpGet:
+          #     path: /notifications
+          #     port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
           volumeMounts:
